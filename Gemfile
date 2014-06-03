@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
-
+ruby '2.1.1'
 
 gem 'rails', '4.1.0'
 gem 'sqlite3', group: :development
-gem 'pg', group: :production
+
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -17,3 +17,10 @@ gem 'slim'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'ng-rails-csrf'
+gem 'puma'
+
+
+group :production do
+  gem 'rails_12factor'
+  gem 'pg'
+end

@@ -1,8 +1,6 @@
-A test project for learning Angular JS
+This started out as a test project for learning AngularJS 
 
-This uses QRCode.js, Rails 4 and Devise. It will run out of the box with a 'rails s' and allow you to sign up with no config.
+It uses angular, QRCode.js, Rails 4, Bootstrap and Devise.
 
-
-
-
+A running version of it is here: http://thinkingbadges.herokuapp.com
 

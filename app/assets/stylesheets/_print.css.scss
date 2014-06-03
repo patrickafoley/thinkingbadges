@@ -1,0 +1,43 @@
+@media print {
+
+  .navbar{
+    display: none;
+  }
+
+  button {
+    display: none;
+
+  }
+ 
+ .form_container { 
+    width: 266px;
+    #qrcode{
+      margin-left: 0px;
+      margin-right: 0px;
+      img{
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+  }
+
+  .badge_form{
+      input {
+        border: 0px;
+        font-size: 20px;
+        width: 266px;
+      }
+      #email{
+        font-size: 12px;
+      }
+      #submitter {
+        display: none;
+      }
+    }
+  }
+
+
+  label { 
+    display: none; 
+  }
+
+}

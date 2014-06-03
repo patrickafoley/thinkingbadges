@@ -1,0 +1,24 @@
+.form_container {
+  #qrcode{
+    margin-left: 1em;
+    margin-right: 1em;
+    img{
+      margin-left: 5em;
+    }
+  }
+  .badge_form{
+    input{
+      display: block;  
+      width: 30em;
+    }
+  }
+}
+
+#list_badges {
+  .grid_options {
+    border: 1px solid rgb(212,212,212);
+    width: 100%; 
+    height: 500px;
+}
+  
+}

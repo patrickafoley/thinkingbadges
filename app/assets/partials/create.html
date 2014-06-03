@@ -1,0 +1,14 @@
+<div class="form_container col-md-4 col-md-offset-4 well">
+  <div id="qrcode">
+  </div><form class="badge_form" name="badge_form">
+  <label>Name</label>
+  <input id="name" ng-keyup="updateQRCode()" ng-model="badge.name" required="" type="text" />
+  <span class="error" ng-show="badge_form.input.$error.required">Required!</span>
+  <label>Company (optional)</label>
+  <input id="company" ng-keyup="updateQRCode()" ng-model="badge.company" type="text" />
+  <label>Email (optional)</label>
+  <input id="email" ng-keyup="updateQRCode()" ng-model="badge.email" type="text" />
+  <input id="submitter" ng-click="print()" type="submit" value="Print" />
+</form></div>
+</div>
+

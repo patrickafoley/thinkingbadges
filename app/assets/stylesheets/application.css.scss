@@ -1,0 +1,16 @@
+$grid-gutter-width: 0px;
+$font-family-base:    'Oswald', sans-serif;
+
+@import "bootstrap";
+@import "badges";
+@import "print";
+@import "ng-grid";
+
+
+.notice {
+  color: black; 
+}
+
+.alert{
+  color: red;
+}
